@@ -11,9 +11,11 @@ h1 {
     font-weight: lighter;
     margin-top: 10px;
     font-size: 50px;
+    margin-left: 15px;
 }
 #onaaronswartztext {
     color: #8E1AFF;
+    margin-left: 25px;
 }
 ul {
 /*    float: right;*/
@@ -45,6 +47,9 @@ ul {
 }
 #dropnav ul {
     display: none;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    position: relative;
 }
 #manifesto article {
 	padding-right: 200px;
@@ -82,7 +87,7 @@ nav {
 }
 #dropnav li {
     margin-right: 20px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
     margin-left: 30px;
 }
 #bignav a {
@@ -130,6 +135,7 @@ a:hover {
 }
 h2 {
     color: #00B502;
+    margin-left: 15px;
 }
 #menu {
     cursor: pointer;
@@ -171,4 +177,84 @@ h2 {
     padding-left: 40px;
     padding-bottom: 20px;
     margin-left: 0px;
+}
+#references article {
+    /* [disabled]text-indent: 20px; */
+    margin-left: 15px;
+}
+#references a {
+    color: #00B502;
+    list-style-position: inside;
+    list-style-type: square;
+}
+footer {
+    color: #6C6C6C;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#references a:hover {
+    color: #8E1AFF;
+}
+
+@media (max-width:946px){
+#manifesto article {
+    padding-left: 50px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+}
+
+@media (max-width: 1057px){
+#openaccess article {
+    padding-left: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#policereport img {
+    display: inline-block;
+    max-width: 1000px;
+}
+}
+
+@media (max-width: 994px){
+#policereport img {
+    max-width: 900px;
+}
+}
+
+@media (max-width: 891px){
+#policereport img {
+    max-width: 800px;
+}
+}
+
+@media (max-width: 786px){
+#policereport img {
+    max-width: 700px;
+}
+}
+
+@media (max-width: 697px){
+#policereport img {
+    max-width: 600px;
+}
+}
+
+@media (max-width: 590px){
+#policereport img {
+    max-width: 500px;
+}
+}
+
+@media (max-width: 1402px){
+#manifesto h2 {
+    margin-top: 15px;
+}
+}
+
+@media (max-width: 550px){
+#references h2 {
+    font-size: 26px;
+}
 }

@@ -4,41 +4,61 @@
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>A-STOR: more </title>
     <!-- Bootstrap -->
 	<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-  	<header class="row">
-	 <h1 class="col-md-11"> a-stor</h1> 
+  <header class="row">
+	 <h1 class="col-md-11"> a-stor </h1>
 	  <div class="d-md-none offset-9">
 		<nav id="dropnav">
 		  <h2 id="menu"> menu</h2>
 	    <ul>
-		  	  <li> <a href="#">home</a></li>
-			  <li> <a href="#">open access</a></li>
-			  <li> <a href="#">manifesto</a></li>
-			  <li> <a href="#">more</a></li>
+		  	  <li> <a href="mainpage.html">home</a></li>
+			  <li> <a href="openaccessabout.html">open access</a></li>
+			  <li> <a href="manifesto.html">manifesto</a></li>
+			  <li> <a href="more.html">more</a></li>
 		  </ul>
 	  </nav>
 		  </div>
 	  <div class="d-none d-md-block col-md-12">
 		<nav id="bignav">
 	    <ul>
-		  	  <li> <a href="#">home</a></li>
-			  <li> <a href="#">open access</a></li>
-			  <li> <a href="#">manifesto</a></li>
-			  <li> <a href="#">more</a></li>
+		  	   <li> <a href="mainpage.html">home</a></li>
+			  <li> <a href="openaccessabout.html">open access</a></li>
+			  <li> <a href="manifesto.html">manifesto</a></li>
+			  <li> <a href="more.html">more</a></li>
 		  </ul>
 				</nav>
 		</div>
 </header>
 	  
-	  <section>
+	  <section id="references">
 	  <h2>sources + more places to go</h2>
+		  <article>
+			  <ul class="col-11 container-fluid">
+				  <br>
+				  <li> <a href="http://www.aaronsw.com/" target="_blank"> aaron's personal site</a> </li>
+				  <li> <a href="https://www.rollingstone.com/culture/culture-news/the-brilliant-life-and-tragic-death-of-aaron-swartz-177191/" target="_blank">rolling stone profile</a></li>
+				  <li> <a href="https://www.nytimes.com/2013/01/13/technology/aaron-swartz-internet-activist-dies-at-26.html" target="_blank"> new york times obituary</a></li>
+				  <li> <a href="https://stanforddaily.com/2020/03/27/remembering-aaron-swartzs-legacy-in-light-of-jstor-opening-access/" target="_blank"> remembering aaron swartz's legacy in light of j-stor opening access (stanford daily)</a></li>
+				  <li> <a href="https://www.internethalloffame.org/inductees/aaron-swartz" target="_blank">internet hall of fame induction</a></li>
+				  <br>
+				  <li><a href="https://en.wikipedia.org/wiki/Open_access" target="_blank">open access wikipedia</a></li>
+				  <li><a href="https://www.youtube.com/watch?v=L5rVH1KGBCY" target="_blank">open access explained (video)</a></li>
+			  </ul>
+			  <br>
+			  <div class="text-center container-fluid">
+			  <img src="images/lessigswartz.jpg" alt="posterized photo of a young aaron swartz and lawrence lessig">
+				  </div>
+			  <br>
+		  </article>
 	  </section>
-	  
+	  <footer>
+		 <p class="text-right"> rebecca turner 2022 </p>
+	  </footer>
 	  
 	  
 	  
@@ -49,6 +69,9 @@
 	<script src="js/jquery-3.4.1.min.js"></script>
 
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	  <script>$("#menu").click(function(){
+  $("#dropnav ul").slideToggle();
+});</script>
 	<script src="js/popper.min.js"></script> 
 	<script src="js/bootstrap-4.4.1.js"></script>
   </body>
