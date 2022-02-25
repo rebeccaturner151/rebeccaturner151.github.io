@@ -21,8 +21,6 @@
       Object.defineProperty(target, descriptor.key, descriptor);
     }
   }
-										
-										
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);
@@ -1717,8 +1715,6 @@
       if (showEvent.isDefaultPrevented()) {
         return;
       } // Disable totally Popper.js for Dropdown in Navbar
-		
-		
 
 
       if (!this._inNavbar && usePopper) {
